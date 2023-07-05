@@ -9,7 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 public class Pom 
 {
 @FindBy(id="email")
-private WebElement username;
+private WebElement username;//pom class
 @FindBy(name="pass")
 private WebElement pass;
 @FindBy(name="login")
